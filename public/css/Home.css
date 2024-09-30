@@ -1,0 +1,345 @@
+/* For All Page */
+
+/* Untuk seluruh tulisan*/
+*{
+    color: #fefe00;
+}
+
+/* Terkecuali yang form dan Alert*/
+.inputForm, .alertXDD{
+    color: #141414;
+}
+
+/* Button yang akan sering dipakai */
+.btn-outline-secondary{
+    color: #fefe00;
+    background-color: #585858;
+    border-color: transparent;
+    border: 50%;
+}
+
+
+/* Jika hasilnya kosong */
+.empty{
+    background-color: #585858;
+    width: 100%;
+    min-height: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.emptyText{
+    margin-bottom: 0;
+}
+
+/* CSS untuk konten utamanya */
+.WholePage{
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url(../image/home_background.jpg);
+    background-size: cover;
+}
+
+.MainPage{
+    padding: 0% 10%;
+}
+
+
+/* The Navbar */
+.navigation-bar{
+    width: 100%;
+}
+
+.navbar-nav{
+    background-color: #141414;
+    z-index: 1;
+}
+
+/* The Left Side of Navbar */
+.navigation-text{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    white-space: nowrap;
+    padding: 0 2%;
+}
+
+.XDD{
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+.HOME{
+    color: white;
+    text-align: center;
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+/* Navbar Right side */
+
+.dropdown{
+    display: flex;
+    gap: 1em;
+    text-decoration: none;
+    color: #fefe00;
+}
+
+.dropdown-menu{
+    background-color: #585858;
+}
+
+.dropdown-item{
+    color: #fefe00;
+}
+
+.dropdown-item-text{
+    margin: 0;
+}
+
+.logoutButton{
+    background-color: transparent;
+    color: inherit;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    text-align: start;
+}
+
+.profilePicture{
+    width: 2em;
+    height: 2em;
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.logText{
+    position: absolute;
+    top:2vh;
+    right: 6vh;
+}
+
+.navGuest{
+    margin-right: 10vh;
+}
+
+.Header{
+    color: #fefe00;
+    vertical-align: middle;
+    text-decoration: none;
+    margin: 0 5%;
+}
+
+/* For the Footer */
+.footer{
+    width: 100vw;
+    height: 30vh;
+    background-color: #141414;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.footerPicture{
+    width: 2.5em;
+}
+
+.footerText{
+    color: white;
+    text-align: center;
+}
+
+/* For the home page */
+.menutext{
+    font-size: 40px;
+}
+
+.menubutton{
+    font-size: 24px;
+}
+
+.menubanner{
+    text-align: center;
+    font-size: 18px;
+    background-color: #585858;
+}
+
+/* Displaying food */
+.displayfood{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1vw;
+}
+
+.foodName{
+    display: block;
+    background-color: #141414;
+    color: #fefe00;
+    text-align: center;
+    text-decoration: none;
+}
+
+.foodImage{
+    height: 15vw;
+    width: 26vw;
+    object-fit: cover;
+    align-self: center;
+}
+
+.pagination li a, .pagination li span {
+    color: #141414;
+}
+
+/* Start of the search */
+
+.searchContainer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.searchBar{
+    display: flex;
+    gap: 1vw;
+}
+
+.filterBar{
+    background-color: #585858;
+    display: flex;
+}
+
+.filtertext{
+    margin-bottom: 0;
+    margin-right: 5%;
+}
+
+/* Food Detail Page */
+.detailbox{
+    background-color: #141414;
+}
+
+.detailcontainer{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1%;
+    background-color: #141414;
+    background-size: cover;
+    align-items: center;
+}
+
+.detailimage{
+    height: 30vw;
+    width: 40vw;
+    object-fit: fit;
+}
+
+.foodDesc{
+    color: white;
+}
+
+/* In the forms */
+.formContent{
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* For Search and Manage Food */
+/* Checkout page also included */
+
+.manageFood{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1vw;
+}
+
+.foodContent{
+    height: fit-content;
+    position: relative;
+}
+
+.foodContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-color: #141414;
+}
+
+.manageFoodImage{
+    height: 22vh;
+    width: 22vh;
+    object-fit: fill;
+    align-self: center;
+}
+
+.manageFoodName, .checkoutLabel{
+    margin-bottom: 0;
+}
+
+.manageFoodDesc, .checkoutTitle{
+    color: white;
+    margin-bottom: 0;
+}
+
+.btn-group.mb-2{
+    position: absolute;
+    top: 1vh;
+    right: 0;
+}
+
+/* Untuk Add and Update food page */
+.formXDD{
+    color: #fefe00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70vw;
+}
+
+/* For Cart page */
+table {
+    border-collapse: collapse;
+    background-color: #585858;
+    width: 100%;
+}
+
+th, td{
+    border: 3px solid #141414;
+    text-align: center;
+}
+
+.form-control{
+    width: 40%;
+}
+
+.quantityTable{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quantityDisplay{
+    margin: 0;
+    padding: 0.75em;
+}
+
+/* Khusus page checkout */
+
+select option {
+    color: #141414;
+  }
